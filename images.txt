@@ -1,12 +1,16 @@
 
+########### ollama (webUI) + xinference ###############
+
+ghcr.io/open-webui/open-webui:git-d3146d2-ollama
+
 # ollama
-ollama/ollama:latest
+# ollama/ollama:latest
 
 # xprobe
-xprobe/xinference:latest-cpu
-xprobe/xinference:latest
+# xprobe/xinference:latest-cpu
+# xprobe/xinference:latest
 
-############## DIFY ################
+############## DIFY ####################################
 # API service
 # langgenius/dify-api:0.6.15
 
