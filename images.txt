@@ -1,7 +1,9 @@
 
+python:3.11-slim
+
 ########### ollama (webUI) + xinference ###############
 
-ghcr.io/open-webui/open-webui:git-d3146d2-ollama
+# ghcr.io/open-webui/open-webui:git-d3146d2-ollama
 
 # ollama
 # ollama/ollama:latest
