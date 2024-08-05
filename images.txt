@@ -15,12 +15,15 @@ python:3.11-slim
 ############## DIFY ####################################
 # API service
 # langgenius/dify-api:0.6.15
+langgenius/dify-api:0.6.11
 
 # worker service
 # langgenius/dify-api:0.6.15
+langgenius/dify-api:0.6.11
 
 # Frontend web application
 # langgenius/dify-web:0.6.15
+langgenius/dify-web:0.6.11
 
 # The postgres database.
 # postgres:15-alpine
@@ -29,7 +32,8 @@ python:3.11-slim
 # redis:6-alpine
 
 # The DifySandbox
-langgenius/dify-sandbox:0.2.4
+# langgenius/dify-sandbox:0.2.4
+langgenius/dify-sandbox:0.2.1
 
 # ssrf_proxy server
 # ubuntu/squid:latest
