@@ -45,10 +45,10 @@ langgenius/dify-sandbox:0.2.1
 # nginx:latest
 
 # The Weaviate vector store.
-# semitechnologies/weaviate:1.19.0
+semitechnologies/weaviate:1.19.0
 
 # Qdrant vector store.
-# langgenius/qdrant:v1.7.3
+langgenius/qdrant:v1.7.3
 
 # The pgvector vector database.
 # pgvector/pgvector:pg16
