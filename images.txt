@@ -6,7 +6,7 @@ python:3.11-slim
 # ghcr.io/open-webui/open-webui:git-d3146d2-ollama
 
 # ollama
-# ollama/ollama:latest
+ollama/ollama:0.3.4
 
 # xprobe
 # xprobe/xinference:latest-cpu
@@ -14,13 +14,13 @@ python:3.11-slim
 
 ############## DIFY ####################################
 # API service
-langgenius/dify-api:0.6.16
+# langgenius/dify-api:0.6.16
 
 # worker service
-langgenius/dify-api:0.6.16
+# langgenius/dify-api:0.6.16
 
 # Frontend web application
-langgenius/dify-web:0.6.16
+# langgenius/dify-web:0.6.16
 
 # The postgres database.
 # postgres:15-alpine
@@ -29,22 +29,22 @@ langgenius/dify-web:0.6.16
 # redis:6-alpine
 
 # The DifySandbox
-langgenius/dify-sandbox:0.2.4
+# langgenius/dify-sandbox:0.2.4
 
 # ssrf_proxy server
 ubuntu/squid:latest
 
 # Certbot service
-certbot/certbot
+# certbot/certbot
 
 # The nginx reverse proxy.
-nginx:latest
+# nginx:latest
 
 # The Weaviate vector store.
 semitechnologies/weaviate:1.19.0
 
 # Qdrant vector store.
-langgenius/qdrant:v1.7.3
+# langgenius/qdrant:v1.7.3
 
 # The pgvector vector database.
 # pgvector/pgvector:pg16
