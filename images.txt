@@ -1,14 +1,14 @@
 
 # python:3.11-slim
 
-# ubuntu:18.04
+ubuntu:latest
 
 
 ########### ollama (webUI) + xinference ###############
 
 # ollama
 # ghcr.io/open-webui/open-webui:git-d3146d2-ollama
-ollama/ollama:latest
+# ollama/ollama:latest
 
 # xprobe
 # xprobe/xinference:latest-cpu
