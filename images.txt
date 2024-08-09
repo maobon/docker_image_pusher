@@ -1,12 +1,15 @@
 
-python:3.11-slim
+# python:3.11-slim
+
+ubuntu:18.04
+
 
 ########### ollama (webUI) + xinference ###############
 
 # ghcr.io/open-webui/open-webui:git-d3146d2-ollama
 
 # ollama
-ollama/ollama:0.3.4
+# ollama/ollama:0.3.4
 
 # xprobe
 # xprobe/xinference:latest-cpu
@@ -32,7 +35,7 @@ ollama/ollama:0.3.4
 # langgenius/dify-sandbox:0.2.4
 
 # ssrf_proxy server
-ubuntu/squid:latest
+# ubuntu/squid:latest
 
 # Certbot service
 # certbot/certbot
@@ -41,7 +44,7 @@ ubuntu/squid:latest
 # nginx:latest
 
 # The Weaviate vector store.
-semitechnologies/weaviate:1.19.0
+# semitechnologies/weaviate:1.19.0
 
 # Qdrant vector store.
 # langgenius/qdrant:v1.7.3
