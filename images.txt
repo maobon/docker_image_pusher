@@ -1,8 +1,8 @@
 
-# python:3.11-slim
-
 ubuntu:latest
+ubuntu:18.04
 
+# python:3.11-slim
 
 ########### ollama (webUI) + xinference ###############
 
