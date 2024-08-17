@@ -1,4 +1,7 @@
 
+nvidia/cuda:12.6.0-base-ubuntu22.04
+
+#######################################################
 # ubuntu:latest
 # ubuntu:18.04
 
@@ -7,7 +10,7 @@
 ########### ollama (webUI) + xinference ###############
 
 # ollama
-ghcr.io/open-webui/open-webui:main
+# ghcr.io/open-webui/open-webui:main
 # ollama/ollama:latest
 
 # xprobe
