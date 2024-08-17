@@ -7,12 +7,12 @@
 ########### ollama (webUI) + xinference ###############
 
 # ollama
-# ghcr.io/open-webui/open-webui:git-d3146d2-ollama
-ollama/ollama:latest
+ghcr.io/open-webui/open-webui:main
+# ollama/ollama:latest
 
 # xprobe
 # xprobe/xinference:latest-cpu
-xprobe/xinference:latest
+# xprobe/xinference:latest
 
 ############## DIFY ####################################
 # API service
