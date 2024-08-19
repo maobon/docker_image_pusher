@@ -14,18 +14,18 @@
 # ollama/ollama:latest
 
 # xprobe
-xprobe/xinference:latest-cpu
+# xprobe/xinference:latest-cpu
 # xprobe/xinference:latest
 
 ############## DIFY ####################################
 # API service
-# langgenius/dify-api:0.7.0
+langgenius/dify-api:0.7.1
 
 # worker service
-# langgenius/dify-api:0.7.0
+langgenius/dify-api:0.7.1
 
 # Frontend web application
-# langgenius/dify-web:0.7.0
+langgenius/dify-web:0.7.1
 
 # The postgres database.
 # postgres:15-alpine
@@ -34,7 +34,7 @@ xprobe/xinference:latest-cpu
 # redis:6-alpine
 
 # The DifySandbox
-# langgenius/dify-sandbox:0.2.4
+langgenius/dify-sandbox:0.2.6
 
 # ssrf_proxy server
 # ubuntu/squid:latest
