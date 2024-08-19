@@ -1,5 +1,5 @@
 
-cloudflare/cloudflared:latest
+# cloudflare/cloudflared:latest
 
 #######################################################
 # ubuntu:latest
@@ -14,7 +14,7 @@ cloudflare/cloudflared:latest
 # ollama/ollama:latest
 
 # xprobe
-# xprobe/xinference:latest-cpu
+xprobe/xinference:latest-cpu
 # xprobe/xinference:latest
 
 ############## DIFY ####################################
