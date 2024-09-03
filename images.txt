@@ -19,13 +19,13 @@
 
 ############## DIFY ####################################
 # API service
-langgenius/dify-api:0.7.2
+langgenius/dify-api:0.7.3
 
 # worker service
-langgenius/dify-api:0.7.2
+langgenius/dify-api:0.7.3
 
 # Frontend web application
-langgenius/dify-web:0.7.2
+langgenius/dify-web:0.7.3
 
 # The postgres database.
 postgres:15-alpine
