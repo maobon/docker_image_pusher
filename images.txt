@@ -1,5 +1,7 @@
 
-sincerity711/cosyvoice:latest
+yiminger/sensevoice:latest
+
+# sincerity711/cosyvoice:latest
 
 # cloudflare/cloudflared:latest
 
