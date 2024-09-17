@@ -1,7 +1,5 @@
 
-yiminger/sensevoice:latest
-
-# sincerity711/cosyvoice:latest
+continuumio/miniconda3
 
 # cloudflare/cloudflared:latest
 
