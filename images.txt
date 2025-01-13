@@ -4,7 +4,8 @@
 
 # harryliu888/funasr-online-server:latest
 # continuumio/miniconda3
-# cloudflare/cloudflared:latest
+
+cloudflare/cloudflared:latest
 
 #######################################################
 # ubuntu:latest
@@ -15,82 +16,82 @@
 ########### ollama (webUI) + xinference ###############
 
 # ollama
-# ghcr.io/open-webui/open-webui:main
-# ollama/ollama:latest
+ghcr.io/open-webui/open-webui:main
+ollama/ollama:latest
 
 # xprobe
-# xprobe/xinference:latest-cpu
+xprobe/xinference:latest-cpu
 # xprobe/xinference:latest
 
 ############## DIFY ####################################
 # API service
-langgenius/dify-api:0.15.1
+# langgenius/dify-api:0.15.1
 
 # worker service
-langgenius/dify-api:0.15.1
+# langgenius/dify-api:0.15.1
 
 # Frontend web application
-langgenius/dify-web:0.15.1
+# langgenius/dify-web:0.15.1
 
 # The postgres database
-postgres:15-alpine
+# postgres:15-alpine
 
 # The redis cache
-redis:6-alpine
+# redis:6-alpine
 
 # The DifySandbox
-langgenius/dify-sandbox:0.2.10
+# langgenius/dify-sandbox:0.2.10
 
 # ssrf_proxy server
-ubuntu/squid:latest
+# ubuntu/squid:latest
 
 # Certbot service
-certbot/certbot
+# certbot/certbot
 
 # The TiDB vector store
-pingcap/tidb:v8.4.0
+# pingcap/tidb:v8.4.0
 
 # The nginx reverse proxy
-nginx:latest
+# nginx:latest
 
 # The Weaviate vector store
-semitechnologies/weaviate:1.19.0
+# semitechnologies/weaviate:1.19.0
 
 # Qdrant vector store
-langgenius/qdrant:v1.7.3
+# langgenius/qdrant:v1.7.3
 
 # The pgvector vector database
-pgvector/pgvector:pg16
+# pgvector/pgvector:pg16
 
 # pgvecto-rs vector store
-tensorchord/pgvecto-rs:pg16-v0.3.0
+# tensorchord/pgvecto-rs:pg16-v0.3.0
 
 # Chroma vector database
-ghcr.io/chroma-core/chroma:0.5.20
+# ghcr.io/chroma-core/chroma:0.5.20
 
 # OceanBase vector database
-quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
+# quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
 
 # Oracle vector database
-container-registry.oracle.com/database/free:latest
+# container-registry.oracle.com/database/free:latest
 
 # Milvus vector database services
-quay.io/coreos/etcd:v3.5.5
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-milvusdb/milvus:v2.5.0-beta
+# quay.io/coreos/etcd:v3.5.5
+# minio/minio:RELEASE.2023-03-20T20-16-18Z
+# milvusdb/milvus:v2.5.0-beta
 
 # Opensearch vector database
-opensearchproject/opensearch:latest
-opensearchproject/opensearch-dashboards:latest
+# opensearchproject/opensearch:latest
+# opensearchproject/opensearch-dashboards:latest
 
 # MyScale vector database
-myscale/myscaledb:1.6.4
+# myscale/myscaledb:1.6.4
 
 # ElasticSearch
-docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+# docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 
 # Kibana
-docker.elastic.co/kibana/kibana:8.14.3
+# docker.elastic.co/kibana/kibana:8.14.3
 
 # unstructured
-downloads.unstructured.io/unstructured-io/unstructured-api:latest
+# downloads.unstructured.io/unstructured-io/unstructured-api:latest
