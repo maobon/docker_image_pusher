@@ -5,8 +5,6 @@
 # harryliu888/funasr-online-server:latest
 # continuumio/miniconda3
 
-cloudflare/cloudflared:latest
-
 #######################################################
 # ubuntu:latest
 # ubuntu:18.04
@@ -16,11 +14,12 @@ cloudflare/cloudflared:latest
 ########### ollama (webUI) + xinference ###############
 
 # ollama
-ghcr.io/open-webui/open-webui:main
+# ghcr.io/open-webui/open-webui:main
 ollama/ollama:latest
+# cloudflare/cloudflared:latest
 
 # xprobe
-xprobe/xinference:latest-cpu
+# xprobe/xinference:latest-cpu
 # xprobe/xinference:latest
 
 ############## DIFY ####################################
