@@ -14,9 +14,8 @@
 ########### ollama (webUI) + xinference ###############
 
 # ollama
-# ghcr.io/open-webui/open-webui:main
 ollama/ollama:latest
-# cloudflare/cloudflared:latest
+ghcr.io/open-webui/open-webui:main
 
 # xprobe
 # xprobe/xinference:latest-cpu
