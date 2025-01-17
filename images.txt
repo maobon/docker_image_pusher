@@ -16,6 +16,7 @@
 # ollama
 ollama/ollama:latest
 ghcr.io/open-webui/open-webui:main
+cloudflare/cloudflared:latest
 
 # xprobe
 # xprobe/xinference:latest-cpu
